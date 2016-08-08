@@ -1,3 +1,4 @@
 Rails.application.routes.draw do
-  root 'splash#index'
+  root 'profiles#index'
+  resources :profiles
 end

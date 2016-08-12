@@ -1,5 +1,6 @@
-= simple_form_for :profile, url: profiles_path, method: :post do |f|
-  = f.input :first_name
-  = f.input :last_name
-  = f.input :email
-  = f.submit "Submit"
+.form-overlay
+  = simple_form_for :profile, url: profiles_path, method: :post do |f|
+    = f.input :first_name
+    = f.input :last_name
+    = f.input :email
+    = f.submit "Submit"
